@@ -1,20 +1,9 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="-2v7udWOWc2TLGv4Yfwz">
-    <mxGraphModel dx="1368" dy="801" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="950" dy="556" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="UTyXUh7nBk0AGkF4HL7Y-2" edge="1" parent="1" source="UTyXUh7nBk0AGkF4HL7Y-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="UTyXUh7nBk0AGkF4HL7Y-3">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="510" y="200" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="UTyXUh7nBk0AGkF4HL7Y-1" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="gfdgdg" vertex="1">
-          <mxGeometry height="80" width="80" x="200" y="290" as="geometry" />
-        </mxCell>
-        <mxCell id="UTyXUh7nBk0AGkF4HL7Y-3" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="" vertex="1">
-          <mxGeometry height="80" width="80" x="470" y="200" as="geometry" />
-        </mxCell>
         <UserObject label="" mermaidData="{&#xa;  &quot;data&quot;: &quot;flowchart TD\n  A([Start]) --&gt; B[Set up SAP BTP accounts]\n  B --&gt; C[Create global account]\n  C --&gt; D[Create subaccounts]\n  D --&gt; E[Configure entitlements and quotas]\n  E --&gt; F[Set up Cloud Foundry or Kyma environments]\n  F --&gt; G[Configure identity and access management]\n  G --&gt; H[Create service instances and service bindings]\n  H --&gt; I[Deploy and configure applications]\n  I --&gt; J([SAP BTP accounts and services ready])&quot;,&#xa;  &quot;config&quot;: null,&#xa;  &quot;version&quot;: &quot;12&quot;&#xa;}" id="93zEVCD2LD5a7VYbRbQK-1">
           <mxCell connectable="0" parent="1" style="group;transparentBounds=1;editIcon=1;lockedGroup=0;groupPadding=10;" vertex="1">
             <mxGeometry as="geometry" />
@@ -22,52 +11,52 @@
         </UserObject>
         <UserObject label="Start" mermaidId="n:A" mermaidBaseStyle="html=1;rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;fillColor=#ffffff;strokeColor=#28253D;fontColor=#28253D;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;" mermaidBaseValue="Start" id="93zEVCD2LD5a7VYbRbQK-2">
           <mxCell parent="93zEVCD2LD5a7VYbRbQK-1" style="html=1;rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;fillColor=#ffffff;strokeColor=#28253D;fontColor=#28253D;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" vertex="1">
-            <mxGeometry height="45" width="171" x="620" y="70" as="geometry" />
+            <mxGeometry height="45" width="171" x="340" y="210" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="Set up SAP BTP accounts" mermaidId="n:B" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#ffffff;strokeColor=#28253D;fontColor=#28253D;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;" mermaidBaseValue="Set up SAP BTP accounts" id="93zEVCD2LD5a7VYbRbQK-3">
           <mxCell parent="93zEVCD2LD5a7VYbRbQK-1" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#ffffff;strokeColor=#28253D;fontColor=#28253D;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;labelWidth=120;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" vertex="1">
-            <mxGeometry height="67" width="152" x="630" y="155" as="geometry" />
+            <mxGeometry height="67" width="152" x="350" y="295" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="Create global account" mermaidId="n:C" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#ffffff;strokeColor=#28253D;fontColor=#28253D;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;" mermaidBaseValue="Create global account" id="93zEVCD2LD5a7VYbRbQK-4">
           <mxCell parent="93zEVCD2LD5a7VYbRbQK-1" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#ffffff;strokeColor=#28253D;fontColor=#28253D;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;labelWidth=120;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" vertex="1">
-            <mxGeometry height="67" width="152" x="630" y="262" as="geometry" />
+            <mxGeometry height="67" width="152" x="350" y="402" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="Create subaccounts" mermaidId="n:D" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#ffffff;strokeColor=#28253D;fontColor=#28253D;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;" mermaidBaseValue="Create subaccounts" id="93zEVCD2LD5a7VYbRbQK-5">
           <mxCell parent="93zEVCD2LD5a7VYbRbQK-1" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#ffffff;strokeColor=#28253D;fontColor=#28253D;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;labelWidth=120;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" vertex="1">
-            <mxGeometry height="67" width="152" x="630" y="368" as="geometry" />
+            <mxGeometry height="67" width="152" x="350" y="508" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="Configure entitlements and quotas" mermaidId="n:E" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#ffffff;strokeColor=#28253D;fontColor=#28253D;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;" mermaidBaseValue="Configure entitlements and quotas" id="93zEVCD2LD5a7VYbRbQK-6">
           <mxCell parent="93zEVCD2LD5a7VYbRbQK-1" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#ffffff;strokeColor=#28253D;fontColor=#28253D;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;labelWidth=120;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" vertex="1">
-            <mxGeometry height="87" width="152" x="630" y="475" as="geometry" />
+            <mxGeometry height="87" width="152" x="350" y="615" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="Set up Cloud Foundry or Kyma environments" mermaidId="n:F" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#ffffff;strokeColor=#28253D;fontColor=#28253D;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;" mermaidBaseValue="Set up Cloud Foundry or Kyma environments" id="93zEVCD2LD5a7VYbRbQK-7">
           <mxCell parent="93zEVCD2LD5a7VYbRbQK-1" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#ffffff;strokeColor=#28253D;fontColor=#28253D;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;labelWidth=120;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" vertex="1">
-            <mxGeometry height="87" width="152" x="630" y="601" as="geometry" />
+            <mxGeometry height="87" width="152" x="350" y="741" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="Configure identity and access management" mermaidId="n:G" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#ffffff;strokeColor=#28253D;fontColor=#28253D;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;" mermaidBaseValue="Configure identity and access management" id="93zEVCD2LD5a7VYbRbQK-8">
           <mxCell parent="93zEVCD2LD5a7VYbRbQK-1" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#ffffff;strokeColor=#28253D;fontColor=#28253D;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;labelWidth=120;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" vertex="1">
-            <mxGeometry height="108" width="152" x="630" y="728" as="geometry" />
+            <mxGeometry height="108" width="152" x="350" y="868" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="Create service instances and service bindings" mermaidId="n:H" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#ffffff;strokeColor=#28253D;fontColor=#28253D;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;" mermaidBaseValue="Create service instances and service bindings" id="93zEVCD2LD5a7VYbRbQK-9">
           <mxCell parent="93zEVCD2LD5a7VYbRbQK-1" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#ffffff;strokeColor=#28253D;fontColor=#28253D;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;labelWidth=120;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" vertex="1">
-            <mxGeometry height="87" width="152" x="630" y="876" as="geometry" />
+            <mxGeometry height="87" width="152" x="350" y="1016" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="Deploy and configure applications" mermaidId="n:I" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#ffffff;strokeColor=#28253D;fontColor=#28253D;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;" mermaidBaseValue="Deploy and configure applications" id="93zEVCD2LD5a7VYbRbQK-10">
           <mxCell parent="93zEVCD2LD5a7VYbRbQK-1" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#ffffff;strokeColor=#28253D;fontColor=#28253D;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;labelWidth=120;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" vertex="1">
-            <mxGeometry height="87" width="152" x="630" y="1002" as="geometry" />
+            <mxGeometry height="87" width="152" x="350" y="1142" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="SAP BTP accounts and services ready" mermaidId="n:J" mermaidBaseStyle="html=1;rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;fillColor=#ffffff;strokeColor=#28253D;fontColor=#28253D;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;" mermaidBaseValue="SAP BTP accounts and services ready" id="93zEVCD2LD5a7VYbRbQK-11">
           <mxCell parent="93zEVCD2LD5a7VYbRbQK-1" style="html=1;rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;fillColor=#ffffff;strokeColor=#28253D;fontColor=#28253D;fontFamily=Recursive;fontSize=14;shadow=1;shadowColor=#000000;shadowOffsetX=4;shadowOffsetY=4;shadowBlur=0;shadowOpacity=6;labelWidth=120;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DRecursive;" vertex="1">
-            <mxGeometry height="87" width="171" x="620" y="1129" as="geometry" />
+            <mxGeometry height="87" width="171" x="340" y="1269" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="" mermaidId="e:A-&gt;B#0" mermaidBaseStyle="edgeStyle=orthogonalEdgeStyle;rounded=1;curved=0;startArrow=none;endArrow=block;endSize=8;jumpStyle=arc;jumpSize=12;strokeColor=#000000;exitX=0.5;exitY=1;entryX=0.5;entryY=0;strokeWidth=2;targetPerimeterSpacing=4;" mermaidBaseValue="" id="93zEVCD2LD5a7VYbRbQK-12">
